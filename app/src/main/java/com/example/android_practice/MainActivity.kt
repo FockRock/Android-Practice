@@ -15,8 +15,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(bindingClass.root)
 
         bindingClass.button.setOnClickListener {
-            bindingClass.textView.text = "Satisfaction!"
-            bindingClass.textView.textSize = 55F
+            bindingClass.textView.text = getString(R.string.satisfaction)
+            bindingClass.textView.textSize = 65F
         }
     }
 
