@@ -14,9 +14,9 @@ class MainActivity : AppCompatActivity() {
         bindingClass = ActivityMainBinding.inflate(layoutInflater)
         setContentView(bindingClass.root)
 
-        bindingClass.button.setOnClickListener {
-            bindingClass.textView.text = getString(R.string.satisfaction)
-            bindingClass.textView.textSize = 65F
+        bindingClass.bPushMe.setOnClickListener {                                            //по нажатию на кнопку меняется надпись и размер текста
+            bindingClass.tSatisfaction.text = getString(R.string.satisfaction)
+            bindingClass.tSatisfaction.textSize = 65F
         }
     }
 
