@@ -2,4 +2,5 @@
     <string name="app_name">Android-Practice</string>
     <string name="push_me">Push me!</string>
     <string name="satisfaction">"Satisfaction!"</string>
+    <string name="push_button">"Push da button!"</string>
 </resources>
