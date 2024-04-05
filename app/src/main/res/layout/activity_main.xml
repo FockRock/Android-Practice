@@ -39,7 +39,7 @@
         android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/tSatisfaction"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/rf6fw_1"
+        app:srcCompat="@drawable/trfm"
         tools:layout_editor_absoluteX="0dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
