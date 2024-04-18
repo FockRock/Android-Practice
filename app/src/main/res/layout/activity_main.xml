@@ -11,9 +11,9 @@
         android:id="@+id/tSatisfaction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25sp"
-        android:text="Hello World!"
         android:fontFamily="monospace"
+        android:text="Hello World!"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,8 +24,8 @@
         android:id="@+id/bPushMe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/push_me"
         android:fontFamily="serif"
+        android:text="@string/push_me"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,12 +34,13 @@
 
     <ImageView
         android:id="@+id/imBonus"
+        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/tSatisfaction"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/trfm"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
