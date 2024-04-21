@@ -34,13 +34,13 @@
 
     <ImageView
         android:id="@+id/imBonus"
-        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/tSatisfaction"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/trfm"
-        tools:layout_editor_absoluteX="0dp"
-        tools:ignore="MissingConstraints" />
+        app:srcCompat="@drawable/women_blonde_ass_lingerie_swimwear_clothing_nask_nach_leg_muscle_arm_hairstyle_chest_abdomen_sport_venue_human_body_trunk_thigh_undergarment_active_undergarment_318116"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
